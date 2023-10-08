@@ -1,0 +1,30 @@
+<!doctype html>
+
+    <head>
+        <title>Basic Demo</title>
+        <link rel="stylesheet" type="text/css" href="../style/boxfish.css">
+    </head>
+
+    <body>
+        
+        <h1>Boxfish.js Basic Demo</h1><hr>
+
+        <div class="container">
+            <div class="box">Box #1</div>
+            <div class="box">Box #2</div>
+            <div class="box">Box #3</div>
+            <div class="box">Box #4</div>
+            <div class="box">Box #5</div>
+            <div class="box">Box #6</div>
+        </div>
+
+    </body>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../src/boxfish.js"></script>
+    <script>
+        // $('.box').boxfish().addBreakpoint(1500,2).addBreakpoint(1700,1);
+        $('.box').boxfish();
+    </script>
+
+</html>
