@@ -275,7 +275,7 @@
          *
          * @return float
          */
-        function getMaxBoxHeight() {
+      /**  function getMaxBoxHeight() {
             var maxBoxHeight = 0;
             var boxHeight = 0;
             boxes.each(function(index, element) {
@@ -284,7 +284,7 @@
                     maxBoxHeight = boxHeight;
             });
             return maxBoxHeight;
-        }
+        } **/
 
         /**
          * Add breakpoint to column calculations
